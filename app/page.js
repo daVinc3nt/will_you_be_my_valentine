@@ -12,11 +12,11 @@ export default function Page() {
 
   const getNoButtonText = () => {
     const phrases = [
-      "Đừng màaa :(",
-      "Cậu chắc chưaaa?",
+      "Đừng màaa, Nguyên ơi :(",
+      "Nguyên chắc chưaaa?",
       "Hay để mình chân thật hơn nhá:(",
-      "Năn nỉ nhiều nhiều",
-      "Mời cậu ăn chô li bi thì sao?",
+      "Năn nỉ Nguyên nhiều nhiều",
+      "Mời Nguyên ăn chô li bi thì sao?",
       "Hay hay là tặng hoa nhá",
       "PLEASE POOKIE",
       "Nhưng tớ tốt với cậu màa...",
@@ -36,7 +36,7 @@ export default function Page() {
       {yesPressed ? (
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-          <div className="my-4 text-4xl font-bold">WOOOOOO!!! Tớ thích cậu nhiều lắm đoá ;))</div>
+          <div className="my-4 text-4xl font-bold">WOOOOOO!!! Tớ thích Thảo Nguyên nhiều lắm đoá ;))</div>
         </>
       ) : (
         <>
@@ -44,7 +44,7 @@ export default function Page() {
             className="h-[200px]"
             src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
           />
-          <h1 className="my-4 text-4xl">Mình làm người yêu nhau nhé!</h1>
+          <h1 className="my-4 text-4xl">Mình làm người yêu nhau nhé Nguyên!</h1>
           <div className="flex items-center">
             <button
               className={`mr-4 rounded bg-green-500 px-4 py-2 font-bold text-white hover:bg-green-700`}

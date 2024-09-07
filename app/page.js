@@ -14,7 +14,7 @@ export default function Page() {
     const phrases = [
       "Đừng màaa :(",
       "Cậu chắc chưaaa?",
-      "Hay để mình chân thật hơn nhá :(",
+      "Hay để mình chân thật hơn nhá:(",
       "Năn nỉ nhiều nhiều",
       "Mời cậu ăn chô li bi thì sao?",
       "Hay hay là tặng hoa nhá",
